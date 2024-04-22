@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: #171717;
+}
+
+li{
+    list-style: none;
+    transition: all 0.4s;
+    z-index: 15;
+}
+
+li:hover{
+    transform: scale(1.1);
+}
+nav a:focus,
+nav a:hover {
+    color: #649d6e;
+}
+
+
+.ul__second a{
+    color: #2f2f2f;
+}
+
+
+a{
+    font-size: 20px;
+    font-family: 'Yeseva One';
+    text-decoration: none;
+    color: #171717;
+}
+
+h1{
+    color: #2f2f2f;
+    font-family: 'Alata';
+    font-size: 70px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p{
+    color: #2f2f2f;
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: 'Alata', sans-serif;
+}
+
+.btn{
+    margin-top: 30px;
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #2f2f2f;
+    letter-spacing: 5px;
+    border-radius: 3rem;
+}
+
+.btn:hover{
+    transform: scale(0.97);
+    background-color: #95a5a6;
+}
+
+
+.row {
+    flex-wrap: wrap;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+
+} 
+
+.column {
+    border-radius: 1rem;
+    flex: 15%;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+
+img{
+    width: 346px;
+    height: 520px;
+}
+
+.first--image{
+    height: 350px;
+    margin-top: 200px;
+}
+
+.third--image{
+    margin-top: 200px;
+}
+
+div .img {
+    margin-top: 20px;
+}
+
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll; /* Add this property to enable vertical scrolling */
+    overflow-x: hidden; /* Add this property to disable horizontal scrolling */
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column; /* Change the flex direction to column */
+}
+
+
+#logo{
+    margin-top: 0;
+  padding: 0;
+}
+
+nav img{
+    width: 300px;
+    height: 200px;
+}
+
+
+.main-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #171717;
+    z-index: 999;
+}
+
+.main-nav .ul__second{
+    position: fixed;
+    display: flex;
+    right: 4em;
+    top: 5em;
+}
+
+.main-nav .ul__second li {
+    margin-left: 1.5rem;
+}
+
+
+
+.container .summer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8em;
+}
+
+.container .summer .image{
+    width: 400px;
+    height: 600px;
+}
+
+.content{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 100px;
+    text-align: left;
+    z-index: 10;
+}
+
+
