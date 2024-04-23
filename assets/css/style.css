@@ -134,7 +134,7 @@ nav img{
     left: 0;
     width: 100%;
     background-color: #171717;
-    z-index: 999;
+    z-index: 2000;
 }
 
 .main-nav .ul__second{
@@ -168,6 +168,7 @@ nav img{
     margin-left: 50px;
     margin-top: 50px;
     margin-right: 100px;
+    margin-bottom: 100px;
     text-align: left;
     z-index: 10;
 }
