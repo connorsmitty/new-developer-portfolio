@@ -14,13 +14,17 @@ li{
 }
 
 li:hover{
-    transform: scale(1.1);
+    transform: scale(1);
 }
 nav a:focus,
 nav a:hover {
     color: #fff;
 }
 
+.ul__first{
+    position: fixed;
+    margin-left: 10px;
+}
 
 .ul__second a{
     color: #2f2f2f;
@@ -125,6 +129,7 @@ div .img {
 nav img{
     width: 300px;
     height: 200px;
+    transform: translateX(-125px);
 }
 
 
@@ -134,7 +139,8 @@ nav img{
     left: 0;
     width: 100%;
     background-color: #171717;
-    z-index: 2000;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 .main-nav .ul__second{
@@ -148,7 +154,9 @@ nav img{
     margin-left: 1.5rem;
 }
 
-
+.container{
+    padding-top: 125px;
+}
 
 .container .summer{
     width: 100vw;
