@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: #171717;
+}
+
+
+li{
+    list-style: none;
+    transition: all 0.4s;
+    z-index: 15;
+}
+
+li:hover{
+    transform: scale(1);
+}
+nav a:focus,
+nav a:hover {
+    color: #fff;
+}
+
+.ul__first{
+    position: fixed;
+    margin-left: 10px;
+}
+
+.ul__second a{
+    color: #616161;
+}
+
+ul .ul__second{
+    margin-right: 4rem;
+}
+
+
+a{
+    font-size: 20px;
+    font-family: 'alata';
+    text-decoration: none;
+    color: #616161;
+}
+
+h1{
+    color: #616161;
+    font-family: 'Alata';
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p{
+    color: #616161;
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: 'Alata', sans-serif;
+}
+
+.btn{
+    margin-top: 30px;
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #2f2f2f;
+    letter-spacing: 5px;
+    border-radius: 3rem;
+}
+
+.btn:hover{
+    transform: scale(0.97);
+    background-color: #fff;
+}
+
+
+.row {
+    flex-wrap: wrap;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+} 
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .image-container img {
+    padding-right: 20px; /* This adds a padding of 10 pixels around each image */
+  }
+
+.column {
+    border-radius: 1rem;
+    width: 33%;
+    margin-bottom: 1rem;
+}
+
+
+img{
+    width: 450px;
+    height: 624px; 
+}
+
+div .img {
+    margin-top: 20px;
+}
+
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll; /* Add this property to enable vertical scrolling */
+    overflow-x: hidden; /* Add this property to disable horizontal scrolling */
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column; /* Change the flex direction to column */
+}
+
+
+#logo{
+    margin-top: 0;
+  padding: 0;
+}
+
+nav img{
+    width: 300px;
+    height: 200px;
+    transform: translateX(-125px);
+}
+
+
+.main-nav{
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #171717;
+    padding: 10px;
+    margin-bottom: 70px;
+}
+
+.main-nav .ul__second{
+    position: fixed;
+    display: flex;
+    right: 4em;
+    top: 5em;
+}
+
+.main-nav .ul__second li {
+    margin-left: 1.5rem;
+}
+
+.container .summer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8em;
+}
+
+.container .summer .image{
+    width: 400px;
+    height: 600px;
+}
+
+.content{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    text-align: left;
+    z-index: 10;
+}
+
+
